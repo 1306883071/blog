@@ -10,15 +10,15 @@ public class Photo extends JFrame{
         JPanel jp1 = new JPanel();
         JPanel jp2 = new JPanel();
         add(jp1);
-        add(jp2, BorderLayout.SOUTH); //将 按钮面板放置在边界布局的下
+        add(jp2, BorderLayout.SOUTH);
         jp1.setLayout(new CardLayout());
-        ImageIcon ii = new ImageIcon("春.jpg");
+        ImageIcon ii = new ImageIcon("./春.jpg");
         JLabel jl = new JLabel(ii);jp1.add(jl);
-        ii = new ImageIcon("夏.jpg");
+        ii = new ImageIcon("./夏.jpg");
         jl = new JLabel(ii);jp1.add(jl);
-        ii = new ImageIcon("秋.jpg");
+        ii = new ImageIcon("./秋.jpg");
         jl = new JLabel(ii);jp1.add(jl);
-        ii = new ImageIcon("冬.jpg");
+        ii = new ImageIcon("./冬.jpg");
         jl = new JLabel(ii);jp1.add(jl);
         JButton jb = new JButton("第一张");jp2.add(jb);
         jb = new JButton("前一张");jp2.add(jb);
